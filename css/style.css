@@ -1,0 +1,219 @@
+.contactBar{
+    display: flex;
+    text-align: center;
+    background-color:#262626;
+    color: whitesmoke;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px
+}
+
+.slide, .carousel-inner, .carousel-img{
+    height: 400px;
+    margin: 10px 20px 20px 5px;
+    border-radius: 20px;
+    
+}
+
+
+body{
+    margin:0
+}
+.nav{
+    display: flex;
+    background-color: white;
+    padding-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav img{
+    width: 250px;
+    height: 100px;
+}
+.search{
+    padding-top: 30px;
+
+}
+.nav a{
+    color: #717171;
+    padding-top: 30px;
+}
+.mySlides {
+    display:none
+    /* width: 100%; */
+}
+.w3-left, .w3-right, .w3-badge {
+    cursor:pointer
+}
+.w3-badge {
+    height:13px;
+    width:13px;
+    padding:0
+}
+.slideShow{
+    margin-top: 20px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info{
+    display: flex;
+    padding-left: 200px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    
+
+}
+.info img{
+    height: 250px;
+    width: 200px;
+    margin-right: 50px;
+}
+.info a{
+    
+    text-align: center;
+    background-color: whitesmoke;
+    border: 20px solid whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0 9px #999;
+    color:#262626 ;
+}
+.container p{
+    padding-top: 30px;
+    width: 600px;
+}
+.colleges-container{
+    display: flex;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    padding-left: 200px;
+    
+}
+
+
+.colleges{
+    display: flex; 
+    padding-top: 20px;
+    justify-content: space-around
+}
+
+.colleges-container .pic img{
+    background-color: whitesmoke;
+    height: 600px;
+    width: 400px;
+    padding-top: 100px;
+    margin-left: 200px;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    height: 100px;
+    margin: 5px;
+    text-align: center;
+    
+  }
+  
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .recentwork{
+      margin-left: 380px;
+      margin-top:30px
+  }
+  .recentwork h4{
+    margin-left:250px;
+    margin-bottom: 50px;
+  }
+  .col{
+      display: flex;
+      margin-top: 20px
+  }
+.col1{
+    width: 50%;
+    margin-left: 150px;
+    margin-top:20px;
+    margin-right: 100px;
+}
+
+.contatus{
+height: 150px;
+background-color: #262626;
+color: whitesmoke;
+text-align: center;
+padding-top: 40px
+}
+.contatus button{
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 10px
+}
+.row22{
+    display: flex;
+    margin-left: 100px
+}
+.card{
+    width: 20%;
+    height: 250px;
+    text-align: center;
+    margin: 20px;
+
+    
+}
+.card a{
+    position: absolute;
+     bottom: 5px;
+}
+.row11{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.footer{
+    background-color: #262626;
+    display: flex;
+    height: 250px;
+    margin-top: 70px
+
+}
+.foimg{
+    width: 40%;
+    margin-left: 100px;
+}
+.foimg img{
+    height: 200px;
+    margin-top: 25px;
+    width: 300px;
+}
+.folink{
+    width: 70%;
+    display: flex;
+}
+.links{
+    width: 200px;
+    margin-top: 20px;
+    color: whitesmoke;
+    margin-left: 50px
+}
+.links input{
+    border: 2px solid #555;
+    background-color: #262626;
+    border-radius: 20px;
+}
+footer{
+    background-color: whitesmoke;
+    height: 50px;
+    padding-top: 15px;
+    font-size: 13px;
+    text-align: center;
+
+}
